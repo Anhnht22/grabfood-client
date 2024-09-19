@@ -42,11 +42,11 @@ public class HomeFragment extends Fragment {
 
         //////////////////////////Horizontal RecyclerView
         homeHorModelList = new ArrayList<>();
-        homeHorModelList.add(new HomeHorModel(R.drawable.pizza,"Pizza"));
-        homeHorModelList.add(new HomeHorModel(R.drawable.hamburger,"Hamburger"));
-        homeHorModelList.add(new HomeHorModel(R.drawable.fried_potatoes,"Fries"));
-        homeHorModelList.add(new HomeHorModel(R.drawable.ice_cream,"Ice Cream"));
-        homeHorModelList.add(new HomeHorModel(R.drawable.sandwich,"Sandwich"));
+        homeHorModelList.add(new HomeHorModel(R.drawable.pho,"Noodles"));
+        homeHorModelList.add(new HomeHorModel(R.drawable.banhmi,"Bread"));
+        homeHorModelList.add(new HomeHorModel(R.drawable.com,"Rice"));
+        homeHorModelList.add(new HomeHorModel(R.drawable.fastfood,"Fast Food"));
+        homeHorModelList.add(new HomeHorModel(R.drawable.drinks,"Drinks"));
 
         homeHorAdapter = new HomeHorAdapter(getActivity(),homeHorModelList);
         homeHorizontalRec.setAdapter(homeHorAdapter);
@@ -58,9 +58,9 @@ public class HomeFragment extends Fragment {
         //////////////////////////Vertical RecyclerView
         homeVerModelList = new ArrayList<>();
 
-        homeVerModelList.add(new HomeVerModel(R.drawable.pizza1,"Pizza","10:10-23:00","4.9","Min - $34"));
-        homeVerModelList.add(new HomeVerModel(R.drawable.pizza2,"Pizza","10:10-23:00","4.9","Min - $34"));
-        homeVerModelList.add(new HomeVerModel(R.drawable.pizza3,"Pizza","10:10-23:00","4.9","Min - $34"));
+        homeVerModelList.add(new HomeVerModel(R.drawable.bundaumet,"Bún Đậu Ba Anh Em","10:10-24:00","2.9","sdasd"));
+        homeVerModelList.add(new HomeVerModel(R.drawable.buncha,"Bún Chả Obama","10:10-23:00","4.9","Min - $4"));
+        homeVerModelList.add(new HomeVerModel(R.drawable.trasua,"Trà Sữa YO TEA","10:10-23:00","4.9","Min - $34"));
 
         homeVerAdapter = new HomeVerAdapter(getActivity(),homeVerModelList);
         homeVerticalRec.setAdapter(homeVerAdapter);

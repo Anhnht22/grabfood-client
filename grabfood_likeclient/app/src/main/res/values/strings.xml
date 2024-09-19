@@ -38,14 +38,7 @@
     <string name="_10_00_23_00">10:00 - 23:00</string>
     <string name="_5_0">5.0</string>
     <string name="welcome_costumer">Welcome costumer</string>
-    <string name="ban_muon_an_gi_nao">Bạn Muốn Ăn Gì Nào?</string>
+    <string name="wswd">What shall we deliver?</string>
     <string name="costomerexample_gmail_com">Costomerexample@gmail.com</string>
-    <string name="banh_da_cua">Banh Da Cua</string>
-    <string name="tra_sua">Tra Sua</string>
-    <string name="nem_chua_thanh_hoa">Nem Chua Thanh Hoa</string>
-    <string name="nem_nuong_nha_trang">Nem Nuong Nha Trang</string>
-    <string name="com_van_phong">Com Van Phong</string>
-    <string name="banh_mi">Banh Mi</string>
-    <string name="chao">Chao</string>
-    <string name="combo_lau">Combo Lau</string>
+
 </resources>

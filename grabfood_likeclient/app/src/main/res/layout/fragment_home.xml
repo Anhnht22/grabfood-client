@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment"
-    android:background="@color/mediumGray">
+    android:background="@color/white">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -19,8 +19,8 @@
             android:background="@drawable/search_bg"
             android:drawableRight="@drawable/ic_baseline_search_24"
             android:drawablePadding="9dp"
-            android:fontFamily="@font/amita"
-            android:hint="@string/ban_muon_an_gi_nao"
+            android:fontFamily="@font/poppins"
+            android:hint="@string/wswd"
             android:padding="10dp"
             android:textColor="@color/white"
             android:textColorHint="@color/white"

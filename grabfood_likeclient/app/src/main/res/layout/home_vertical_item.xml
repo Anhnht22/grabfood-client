@@ -14,7 +14,7 @@
         <ImageView
             android:id="@+id/ver_img"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="match_parent"
             android:scaleType="center"
             android:src="@drawable/bundaumet"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -36,21 +36,21 @@
             app:layout_constraintVertical_bias="1">
 
             <TextView
-                android:fontFamily="@font/amita"
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
                 android:text="@string/bun_dau_met_ba_anh_em"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias=".1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias=".15"
-                app:layout_constraintHorizontal_bias=".1"
-                android:layout_marginTop="10dp"/>
+                app:layout_constraintVertical_bias=".15" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -60,7 +60,7 @@
                 android:layout_marginRight="9dp"
                 android:src="@drawable/ratingbar"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1"
+                app:layout_constraintHorizontal_bias="0.916"
                 app:layout_constraintStart_toEndOf="@+id/name"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -91,7 +91,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/_10_00_23_00"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView3"
@@ -102,8 +102,8 @@
                 android:id="@+id/price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="35.000"
-                android:textColor="@color/white"
+                android:text="$2"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
